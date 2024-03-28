@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+
+
+
+
+    <body>
+
+        <h2>HTML FORMS OCC PHTO1</h2>
+
+        <FORM>
+            <label for="fname">First Name</label>  <!--name of user--> 
+            <input type="text" name="fname" id="fname" required/>  <!-- --> 
+            <br><br>
+
+
+
+            <label for="pass">Password</label>  <!--passwprd  of user--> 
+            <input type="password" name="pass" id="pass" required/>  <!-- --> 
+            <br><br>
+
+            <label for="email">email address</label>  <!--email of user--> 
+            <input type="email" name="email" id="email"/>  <!-- --> 
+            <br><br>
+            
+            <label for="phone number">Phone Number</label>
+            <input type="tel" name="phone number" id="phone number" pattern="\+\(\d{2}\) \d{3}-\d{3}-\d{4}">
+            <br><br>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <br><br>
+
+            <label for="operating system ">Operating Systsem</label>
+            <select name="operating system" id="operating system">
+                
+                <option value="none">choose below</option>
+                <option value="windows">Windows</option>
+                <option value="linux">Linux</option>
+                <option value="mac os">Mac Os</option>
+                <option value="solaris">Solaris</option>
+                <option value="freebsd">FreeBSD</option>
+            </select>
+            <br><br>
+
+
+            <h3>Gender</h3>
+            <input type="radio" name="gender" id="male" value="male/">
+            <label for="male">Male</label>
+
+
+            <input type="radio" name="gender" id="" value="female/">
+            <label for="female">Female</label>
+
+
+            <input type="radio" name="gender" id="lgbtq" value="lgbtq/">
+            <label for="lgbtq">LGBTQ</label>
+
+            <h3>Sex</h3>
+
+            <input type="checkbox" name="sex" id="man" value="man"/>
+            <label for="man">Man</label>
+
+            <input type="checkbox" name="sex" id="woman" value="woman"/>
+            <label for="woman">Woman</label>
+            <br><br>
+
+            <button type="submit">Submit form</button>
+
+
+
+
+        </FORM>
+
+
+
+
+    </body>
+
+
+</html>

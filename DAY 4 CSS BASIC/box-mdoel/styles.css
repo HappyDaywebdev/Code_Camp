@@ -1,0 +1,48 @@
+
+
+    .box1 {
+        padding-top: 5px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-left: 20px;
+    }
+
+    .box2 {
+        padding: 10px 20px 30px 40px;
+    }
+
+    .box3 {
+        margin: 10px 20px 30px 40px;
+    }
+
+    .box4 {
+        margin: 80px;
+        padding: 10px 20px 30px 40px;
+    }
+
+    .box {
+        border: 2px blue solid;
+    }
+
+    /* h2 {
+        background-color: blanchedalmond;
+    } */
+    
+    .mix-borders {
+    /* background-color: blueviolet; */
+    border-style: dotted dashed solid double;
+    border-width: 10px;
+    border-color: yellowgreen;
+    }
+
+    .circle-container {
+        background-color: rgb(255, 0, 51);
+        height: 30px;
+        width: 45px;
+        border-radius: 50%;
+        color: white;
+        text-indent: 7px;
+
+        /* border: 2px blue solid; */
+        
+    }

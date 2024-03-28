@@ -1,0 +1,14 @@
+.circular-image {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%; /* Creates circular shape */
+    overflow: hidden; /* Clips the image to the shape of the border-radius */
+    border: 5px solid;
+    border-image: linear-gradient(to right, #ff7e5f, #feb47b);
+  }
+  
+  .circular-image img {
+    width: 100%; /* Ensures the image fills the circular container */
+    height: 100%; /* Ensures the image fills the circular container */
+    object-fit: cover; /* Prevents image distortion */
+  }

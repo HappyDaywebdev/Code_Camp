@@ -1,0 +1,64 @@
+/* this is how your write a comment in CSS */
+
+/* universaal selector */
+*{
+    color: violet;
+}
+
+
+/* element selector */
+    p{
+        color: red;
+    }
+
+    p{
+
+    color: brown;
+
+    }
+
+    /* id selector */
+    .class-example {
+
+        color: pink;
+    }
+    
+        /* id selector */
+        #id-example {
+            color: tomato;
+        }
+
+        /* attribute selector */
+
+        /* targetting an acnhor tag with specific href 
+        value="httpp://www.youtube.com" */
+
+        a[href]{
+            color: green;
+        }
+
+        a[href="httpp:www.google.com"]{
+            color: pink;
+        }
+
+
+        /* grouping selector */
+
+        h1,h2,h3 {
+            
+            color: lightblue;
+            font-size: 25px;
+            background-color: cadetblue;
+        }
+
+        .heading1, #heading2, h3 {
+
+            background-color: #fe4f02;
+            color: #04859c;
+        }
+
+        /* Pseudo-class Selector */
+.heading1:hover{
+
+    background-color:rgba(248, 0, 243, 0.934);
+}

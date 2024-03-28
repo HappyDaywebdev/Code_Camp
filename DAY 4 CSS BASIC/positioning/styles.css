@@ -1,0 +1,32 @@
+    .relative {
+        background-color: orange;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .absolute {
+        background-color: rgb(133, 103, 52);
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 0px;
+        left: 0px;
+    }
+
+    .fixed {
+
+        background-color: navy;
+        color: rgb(255, 255, 255);
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .sticky {
+        background-color: rgb(133, 103, 52);
+        color: rgb(255, 255, 255);
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0px;
+        left: 0px;
+    }

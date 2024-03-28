@@ -1,0 +1,30 @@
+    .color-example {
+
+    color: red;
+    background-color: aqua;
+}
+
+.background-example {
+    background-color: #ffaa00;
+    color: rgb(12, 11, 33);
+}
+
+    .background-position-example{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ42SMBkdq-vTKhbfpJ70IuOCB0ZSz7S__4S_jjNLSXhg&s");
+    height: 300px;
+    width: 500px;
+    background-color: #ffaa00;
+    color: #ccef01;
+    background-repeat: no-repeat;
+    background-position:center top;
+}
+
+    .opacity-example {
+        background-color: rgba(255, 0, 0, 0.1);
+    }
+
+    .img-name {
+
+        height: 200px;
+        width: 200px;
+    }

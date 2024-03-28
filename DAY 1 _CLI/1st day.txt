@@ -1,0 +1,15 @@
+mkdir_create folder
+ls_see the content of folder
+rmdir_ remove or delete folder
+clear_means remove
+cls_clear terminal
+
+cd_current directory
+cd combine of folder
+cd .._means back to origin
+ren_shortcut for rename
+
+
+
+
+
