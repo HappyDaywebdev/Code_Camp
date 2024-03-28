@@ -17,6 +17,7 @@ function saveLocalTodos(todo) {
 
 // function to add new tasks to localStorage
 function addTodo (e) {
+    
     //prevent form submission
     e.preventDefault();
     //create a new todo div
